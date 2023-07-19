@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: #414144;
+        color: white;
+        font-size: 40px;
+    }
+</style>
+<body>
+   
+    <div class="parent">
+         <!-- jsjsjsjjsj -->
+    <div class="day">Monday</div>
+    <div class="day">Tuesday</div>
+    <div class="day">Thusday</div>
+    <div class="day">Friday</div>
+    </div>
+</body>
+<script>
+//    const value = document.querySelector(".parent")
+//console.log(value);
+//const child = value.children
+//console.log(value.children[2]);
+//value.style.backgroundColor = "red"
+//const convert = Array.from(child)
+//convert.map((el)=> el.style.backgroundColor = "yellow")
+
+//console.log(convert[0].innerHTML);    
+//      console.log(value.children);
+//   for(i=0;i<=value.children.length;i++){
+//     console.log(value.children[0].innerHTML);
+//   }
+
+const parent = document.querySelector(".parent")
+console.log(parent);
+console.log(parent.children);
+console.log(parent.children[0].innerHTML);
+console.log(parent.children[1].innerHTML);
+console.log(parent.children[2].innerHTML);
+console.log(parent.children[3].innerHTML);
+console.log(parent.firstElementChild.innerHTML);
+console.log(parent.lastElementChild.innerHTML);
+const dayone = document.querySelector(".day")
+console.log(dayone.parentElement);
+console.log(dayone.nextElementSibling);
+console.log(dayone.nextSibling);
+
+console.log("nodes :", parent.childNodes);
+
+
+    
+
+
+</script>
+</html>
